@@ -4,6 +4,6 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "demo-vpc"
-    #Purpose = "Jenkins Demo"     #try to uncomment and run Jenkins Build again
+    Purpose = "Jenkins Demo"     #try to uncomment and run Jenkins Build again
   }
 }
